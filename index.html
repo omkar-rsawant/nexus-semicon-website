@@ -1475,7 +1475,7 @@
           </div>
           <div class="contact-detail">
             <div class="contact-icon ps"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1.5 3.5h11v7a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7ZM1.5 3.5l5.5 4.5 5.5-4.5" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/></svg></div>
-            <div><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:paasops@nexus-semicon.co.in" class="ps">paasops@nexus-semicon.co.in</a></div></div>
+            <div><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:vpronixadmin@nexus-semicon.co.in" class="ps">vpronixadmin@nexus-semicon.co.in</a></div></div>
           </div>
           <div class="contact-detail">
             <div class="contact-icon ps"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5.5" stroke="#F59E0B" stroke-width="1.2"/><path d="M7 4v3.5l2 1.2" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/></svg></div>
@@ -1505,10 +1505,10 @@
           </div>
           <div class="wa-widget-body">
             <div class="wa-form-row">
-              <div class="wa-fg"><label>Name</label><input type="text" id="ps_name" placeholder="Priya Sharma" /></div>
+              <div class="wa-fg"><label>Name</label><input type="text" id="ps_name" placeholder="Vihaan Sawant" /></div>
               <div class="wa-fg"><label>Company</label><input type="text" id="ps_company" placeholder="Your Company Pvt Ltd" /></div>
             </div>
-            <div class="wa-fg"><label>Email</label><input type="email" id="ps_email" placeholder="priya@yourcompany.in" /></div>
+            <div class="wa-fg"><label>Email</label><input type="email" id="ps_email" placeholder="Vihaan@yourcompany.in" /></div>
             <div class="wa-fg"><label>Server count</label>
               <select id="ps_nodes">
                 <option value="">Select range…</option>
@@ -1689,7 +1689,7 @@
       const msg    = data.get('message') || '';
       const co     = data.get('company') || '';
       const subj   = isNS ? 'NexusSemicon Enquiry' : 'PaaS-Ops Pilot Request';
-      const to     = isNS ? 'vpronixadmin@nexus-semicon.co.in' : 'paasops@nexus-semicon.co.in';
+      const to     = isNS ? 'vpronixadmin@nexus-semicon.co.in' : 'vpronixadmin@nexus-semicon.co.in';
       const body   = `Name: ${name}\nCompany: ${co}\nEmail: ${email}\n\n${msg}`;
       window.location.href = `mailto:${to}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
       btn.textContent = isNS ? 'Send Message' : 'Request Free Pilot';
